@@ -1,5 +1,27 @@
 # Changelog
 
+## v0.2.0
+
+[compare changes](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/compare/v0.1.0...v0.2.0)
+
+### 🚀 Enhancements
+
+- Modify implemented and exported functions to correspond with lz4-flex functions ([86aeaf0](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/commit/86aeaf0))
+
+### 🩹 Fixes
+
+- Modify entry point to resolve rollup build error ([591258b](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/commit/591258b))
+
+### 🏡 Chore
+
+- Modify repository git remote URL ([6876695](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/commit/6876695))
+- Set wasm-pack build target to web ([ccd9014](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/commit/ccd9014))
+- Temporarily remove test command from release script ([deb09a2](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/commit/deb09a2))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v0.1.0
 
 [compare changes](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/compare/418b8c1...v0.1.0)
