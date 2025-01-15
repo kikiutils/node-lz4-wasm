@@ -30,12 +30,13 @@
     "node": ">=18.12.1"
   },
   "scripts": {
-    "build": "ts-project-builder ./src/index.ts --clean --sourcemaps",
+    "build": "pnpm run build:wasm && ts-project-builder ./src/index.ts --clean --sourcemaps",
+    "build:wasm": "sh ./build-wasm.sh",
     "bumplog": "changelogen --bump",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "release": "pnpm run lint && pnpm run build && pnpm run test && changelogen --push --release && npm publish",
-    "test": "cross-env TZ=UTC jest --coverage"
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "@kikiutils/changelogen": "^0.7.0",
