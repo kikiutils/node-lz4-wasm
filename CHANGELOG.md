@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.2.2
+
+[compare changes](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/compare/v0.2.1...v0.2.2)
+
+### 🩹 Fixes
+
+- Resolve issue with entry point not updating wasm loading method ([11bf865](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/commit/11bf865))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v0.2.1
 
 [compare changes](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/compare/v0.2.0...v0.2.1)
