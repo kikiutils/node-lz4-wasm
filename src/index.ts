@@ -1,7 +1,7 @@
-import {
-    compress as rustCompress,
-    decompress as rustDecompress,
-} from '../rust/pkg/kikiutils_lz4_wasm';
+import * as wasmJs from '../rust/pkg/lz4_wasm';
+import wasmCore from '../rust/pkg/lz4_wasm_bg.wasm';
 
-export const compress = (data: Uint8Array) => rustCompress(data);
-export const decompress = (data: Uint8Array) => rustDecompress(data);
+// @ts-expect-error Ignore this error.
+wasmCore().then(({ instance }) => wasmJs.default(instance));
+export const compress = (data: Uint8Array) => wasmJs.compress(data);
+export const decompress = (data: Uint8Array) => wasmJs.decompress(data);
