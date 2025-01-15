@@ -5,3 +5,13 @@ edition = "2024"
 [dependencies]
 lz4_flex = "0.11.3"
 wasm-bindgen = { version = "0.2.100", features = ["enable-interning"] }
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
+overflow-checks = true
+panic = "unwind"
+strip = "symbols"
