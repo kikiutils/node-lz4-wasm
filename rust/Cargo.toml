@@ -1,0 +1,5 @@
+[package]
+name = "kikiutils-lz4-wasm"
+edition = "2024"
+
+[dependencies]
