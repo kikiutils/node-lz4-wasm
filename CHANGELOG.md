@@ -1,5 +1,25 @@
 # Changelog
 
+## v0.3.0
+
+[compare changes](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/compare/v0.2.2...v0.3.0)
+
+### 🚀 Enhancements
+
+- ⚠️ Modify code and output structure to support both nodejs and web version files ([26ef870](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/commit/26ef870))
+
+### ✅ Tests
+
+- Add node unit tests and related jest configuration files ([04f7a41](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/commit/04f7a41))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️ Modify code and output structure to support both nodejs and web version files ([26ef870](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/commit/26ef870))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v0.2.2
 
 [compare changes](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/compare/v0.2.1...v0.2.2)
