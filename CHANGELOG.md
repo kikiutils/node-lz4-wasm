@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.2.1
+
+[compare changes](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/compare/v0.2.0...v0.2.1)
+
+### 🏡 Chore
+
+- Inline wasm file into build output file ([bf20503](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/commit/bf20503))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v0.2.0
 
 [compare changes](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/compare/v0.1.0...v0.2.0)
