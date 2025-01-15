@@ -30,7 +30,7 @@
     "node": ">=18.12.1"
   },
   "scripts": {
-    "build": "pnpm run build:wasm && ts-project-builder ./src/index.ts --clean --sourcemaps",
+    "build": "pnpm run build:wasm && ts-project-builder './src/**/*.ts' --clean --sourcemaps",
     "build:wasm": "sh ./build-wasm.sh",
     "bumplog": "changelogen --bump",
     "lint": "eslint",
@@ -45,6 +45,7 @@
     "@rollup/plugin-wasm": "^6.2.2",
     "@types/jest": "^29.5.14",
     "jest": "^29.7.0",
+    "rollup-plugin-copy": "^3.5.0",
     "ts-jest": "^29.2.5",
     "ts-project-builder": "3.4.0"
   }

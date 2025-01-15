@@ -1,5 +1,5 @@
-import * as wasmJs from '../rust/pkg/lz4_wasm';
-import wasmCore from '../rust/pkg/lz4_wasm_bg.wasm';
+import * as wasmJs from '../rust/pkg/web/lz4_wasm';
+import wasmCore from '../rust/pkg/web/lz4_wasm_bg.wasm';
 
 // @ts-expect-error Ignore this error.
 wasmJs.default(wasmCore());
