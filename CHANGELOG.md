@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.3.1
+
+[compare changes](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/compare/v0.3.0...v0.3.1)
+
+### 🩹 Fixes
+
+- Correct incorrect package.json exports configuration ([9525dbf](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/commit/9525dbf))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v0.3.0
 
 [compare changes](https://github.com/kiki-kanri/kikiutils-node-lz4-wasm/compare/v0.2.2...v0.3.0)
