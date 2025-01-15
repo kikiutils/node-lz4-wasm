@@ -17,6 +17,9 @@ importers:
       '@kikiutils/tsconfigs':
         specifier: ^3.0.2
         version: 3.0.2
+      '@rollup/plugin-wasm':
+        specifier: ^6.2.2
+        version: 6.2.2(rollup@4.30.1)
       '@types/jest':
         specifier: ^29.5.14
         version: 29.5.14
@@ -655,6 +658,15 @@ packages:
       rollup:
         optional: true
       tslib:
+        optional: true
+
+  '@rollup/plugin-wasm@6.2.2':
+    resolution: {integrity: sha512-gpC4R1G9Ni92ZIRTexqbhX7U+9estZrbhP+9SRb0DW9xpB9g7j34r+J2hqrcW/lRI7dJaU84MxZM0Rt82tqYPQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+    peerDependenciesMeta:
+      rollup:
         optional: true
 
   '@rollup/pluginutils@5.1.4':
@@ -3740,6 +3752,12 @@ snapshots:
     optionalDependencies:
       rollup: 4.30.1
       tslib: 2.8.1
+
+  '@rollup/plugin-wasm@6.2.2(rollup@4.30.1)':
+    dependencies:
+      '@rollup/pluginutils': 5.1.4(rollup@4.30.1)
+    optionalDependencies:
+      rollup: 4.30.1
 
   '@rollup/pluginutils@5.1.4(rollup@4.30.1)':
     dependencies:
