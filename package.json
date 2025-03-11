@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kiki-kanri/kikiutils-node-lz4-wasm.git"
+    "url": "git+https://github.com/kikiutils/node-lz4-wasm.git"
   },
   "keywords": [
     "compress",
