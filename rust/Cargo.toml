@@ -9,6 +9,9 @@ wasm-bindgen = { version = "0.2.100", features = ["enable-interning"] }
 [lib]
 crate-type = ["cdylib", "rlib"]
 
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = ["--enable-bulk-memory"]
+
 [profile.release]
 codegen-units = 1
 lto = "fat"
