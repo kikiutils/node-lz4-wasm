@@ -1,5 +1,27 @@
 # Changelog
 
+## v0.3.2
+
+[compare changes](https://github.com/kikiutils/node-lz4-wasm/compare/v0.3.1...v0.3.2)
+
+### 🩹 Fixes
+
+- **rust:** Add `--enable-bulk-memory` build arg to wasm-opt ([0458db1](https://github.com/kikiutils/node-lz4-wasm/commit/0458db1))
+
+### 🏡 Chore
+
+- Upgrade dependencies and set `pnpm.onlyBuiltDependencies` in `package.json` ([7353e57](https://github.com/kikiutils/node-lz4-wasm/commit/7353e57))
+- Update repository URL ([b58345f](https://github.com/kikiutils/node-lz4-wasm/commit/b58345f))
+- Set `hideAuthorEmail` arg in changelog command ([de042d1](https://github.com/kikiutils/node-lz4-wasm/commit/de042d1))
+
+### 🤖 CI
+
+- Add test CI configuration file ([948f9be](https://github.com/kikiutils/node-lz4-wasm/commit/948f9be))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v0.3.1
 
 [compare changes](https://github.com/kikiutils/node-lz4-wasm/compare/v0.3.0...v0.3.1)
