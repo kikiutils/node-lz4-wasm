@@ -3,7 +3,7 @@ import {
     writeFileSync,
 } from 'node:fs';
 
-import wasm from '@rollup/plugin-wasm';
+import { wasm } from '@rollup/plugin-wasm';
 import copy from 'rollup-plugin-copy';
 import { defineConfig } from 'ts-project-builder';
 
