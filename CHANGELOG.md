@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.3.3
+
+[compare changes](https://github.com/kikiutils/node-lz4-wasm/compare/v0.3.2...v0.3.3)
+
+### 💅 Refactors
+
+- Update import style for some functions ([556c774](https://github.com/kikiutils/node-lz4-wasm/commit/556c774))
+
+### 🏡 Chore
+
+- Upgrade dependencies ([b1d4ffa](https://github.com/kikiutils/node-lz4-wasm/commit/b1d4ffa))
+- Format code ([40d871e](https://github.com/kikiutils/node-lz4-wasm/commit/40d871e))
+
+### ✅ Tests
+
+- Rename `test` dir to `tests` ([7fb91d9](https://github.com/kikiutils/node-lz4-wasm/commit/7fb91d9))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v0.3.2
 
 [compare changes](https://github.com/kikiutils/node-lz4-wasm/compare/v0.3.1...v0.3.2)
